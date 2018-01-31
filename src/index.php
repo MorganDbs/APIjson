@@ -20,7 +20,7 @@
         </div>
     </nav>
 
-    
+
 
     <div class="container">
         <p>Liste des membres :</p>
@@ -36,4 +36,9 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    $(() => {
+        Interoperabilite.init(<?php echo (file_get_contents('http://api.loire-atlantique.fr/opendata/1.0/traficevents?filter=Tous')); ?>, <?php echo (file_get_contents('https://maps.googleapis.com/maps/api/geocode/json?address=Nantes,+FR&key=AIzaSyB-ysu90cG51yoVR6TePOk9sYM_1WqqnVI')); ?>);
+    });
+</script>
 </html>
