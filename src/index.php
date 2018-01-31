@@ -20,7 +20,17 @@
         </div>
     </nav>
 
+    
+
     <div class="container">
+        <p>Liste des membres :</p>
+        <ul>
+            <li>Baier Geoffrey</li>
+            <li>Dubois Morgan</li>
+            <li>Wilmouth Steven</li>
+        </ul>
+        <div class="divider"></div>
+        <br />
         <div id="map" class="col l12" style="height: 400px; width: auto">
 
         </div>
