@@ -10,7 +10,7 @@ window.Interoperabilite = (() => {
             iconAnchor:   [16, 35],
             popupAnchor:  [0, -35]
         });
-    	let infoTrafic = module.query('https://data.nantes.fr/api/publication/24440040400129_NM_NM_00177/Alertes_infotrafic_nm_STBL/content/?format=json', 'GET')
+    	let infoTrafic = module.query('http://api.loire-atlantique.fr/opendata/1.0/traficevents?filter=Tous', 'GET')
 
         //let infoTrafic = module.query('http://localhost/APIjson/src/content/nantes.json', 'GET')
 
