@@ -3,11 +3,11 @@ header('Content-Type: application/json');
 
 $opts = [
 	'http' => [
-		'proxy'=> 'tcp://127.0.0.1:8080', 
+		'proxy'=> 'tcp://127.0.0.1:8080',
 		'request_fulluri'=> true
 	]
 ];
-$context = stream_context_create($opts); 
+$context = stream_context_create($opts);
 
 $velostan = simplexml_load_string(file_get_contents('http://www.velostanlib.fr/service/carto', false));
 
